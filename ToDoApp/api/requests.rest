@@ -1,0 +1,17 @@
+GET http://localhost:5000/todos
+
+###
+
+POST http://localhost:5000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Finish Work."
+}
+
+###
+
+DELETE http://localhost:5000/todo/delete/64622b1d5eee8069d6fae023
+###
+
+PUT http://localhost:5000/todo/complete/64622c5704ad3409eaddcbbc
